@@ -1,0 +1,165 @@
+<!DOCTYPE html> 
+
+<html> 
+<head> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title> Making card</title>
+<style>
+.wrap { width : 1000px ; 
+	margin : auto ; 
+	margin—top : 100px ; 
+}
+.card { 
+	box—shadow: 0 4px 8px 0 rgba(0,0,0,0.6) ; 
+	transition : 0.4s ; 
+	width : 300px ; 
+	background: #fff ; 
+	text-align : center ; 
+	font-size : 16px ; 
+	font-family : sans-serif ; 
+	float: left ; 
+	margin : 10px ;
+}
+
+.card:hover { 
+box-shadow: 0 8px 16px 0 rgba(0,3,0,0.2) ;
+}
+
+.btn-success {
+  transition-duration: 0.6s;
+}
+
+.btn-success:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+</style>
+</head> 
+<body >
+
+
+<div class ="wrap" >
+ 	<div class= "card" > 
+	<img src="https://www.marktechpost.com/wp-content/uploads/2018/04/MARK-TECH-POST-1.png"  style = "margin-top:25px;"  border="5"   width="200"   height="100">
+ 		<div class ="container"> 
+			<h4><b>Marktechpost Blogs</b></h4> 
+			<button class="btn btn-success" style = "margin:25px; padding:5px;" onclick=" window.open('https://www.marktechpost.com/category/technology/ai-shorts/')"> Open blogs</button>
+		</div> 
+
+	</div> 
+</div>
+
+<div class ="wrap" >
+ 	<div class= "card" > 
+	<img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/20200914-5storms.max-1000x1000.jpg"  style = "margin-top:25px;"  border="5"   width="200"   height="100">
+ 		<div class ="container"> 
+			<h4><b>Google AI blogs</b></h4> 
+			<button class="btn btn-success" style = "margin:25px; padding:5px;" onclick=" window.open('https://blog.google/technology/ai/')"> Open blogs</button>
+		</div> 
+
+	</div> 
+</div>
+
+<div class ="wrap" >
+ 	<div class= "card" > 
+	<img src="https://cdn.analyticsvidhya.com/wp-content/uploads/2020/06/Av-Logo-250x71-1.jpg"  style = "margin-top:25px;"    width="210"   height="110">
+ 		<div class ="container"> 
+			<h4><b>Analytics Vidya Blogs</b></h4> 
+ 			<button class="btn btn-success" style = "margin:25px; padding:5px;" onclick=" window.open('https://www.analyticsvidhya.com/blog/category/machine-learning/')"> Open blogs</button>
+			
+			
+		</div> 
+
+	</div> 
+</div>
+
+<div class ="wrap" >
+ 	<div class= "card" > 
+	<img style=';margin-top:25px;' src="https://cdn.worldvectorlogo.com/logos/google-news-2.svg"     width="210"   height="110">
+ 		<div class ="container"> 
+			<h4><b>Google News</b></h4> 
+ 			<button class="btn btn-success" style = "padding:5px; " onclick=" window.open('https://news.google.com/topics/CAAqKggKIiRDQkFTRlFvSUwyMHZNRGRqTVhZU0JXVnVMVWRDR2dKSlRpZ0FQAQ/sections/CAQiR0NCQVNMd29JTDIwdk1EZGpNWFlTQldWdUxVZENHZ0pKVGlJTkNBUWFDUW9ITDIwdk1HMXJlaW9KRWdjdmJTOHdiV3Q2S0FBKi4IACoqCAoiJENCQVNGUW9JTDIwdk1EZGpNWFlTQldWdUxVZENHZ0pKVGlnQVABUAE?hl=en-IN&gl=IN&ceid=IN%3Aen')">Tech AI</button>
+			<button class="btn btn-success" style = "padding:5px;" onclick=" window.open('https://news.google.com/topics/CAAqKAgKIiJDQkFTRXdvS0wyMHZNR3AwTTE5eE14SUZaVzR0UjBJb0FBUAE?hl=en-IN&gl=IN&ceid=IN%3Aen')">Data Science</button>
+			<button class="btn btn-success" style = "margin:25px; padding:5px;" onclick=" window.open('https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSkwyMHZNRGQ2ZVRSNUVnVmxiaTFIUWlnQVAB?hl=en-IN&gl=IN&ceid=IN%3Aen')">Data Analysis</button>
+		</div> 
+
+	</div> 
+</div>
+<div class ="wrap"  >
+ 	<div class= "card"  > 
+	<img src="https://mk0analyticsindf35n9.kinstacdn.com/wp-content/uploads/2020/12/20880-Converted-07.jpg"  style = "margin-top:25px;"    width="210"   height="110">
+ 		<div class ="container"> 
+			<h4><b>AIM</b></h4> 
+ 			<button class="btn btn-success" style = "padding:5px;" onclick=" window.open('https://analyticsindiamag.com/category/developers_corner/')"  width=30px  height="10"> Developers  Corner</button>
+			<button class="btn btn-success" style = "padding:5px;" onclick=" window.open('https://analyticsindiamag.com/category/education/')">Education</button>
+			<button class="btn btn-success" style = " margin:25px; padding:5px;" onclick=" window.open('https://analyticsindiamag.com/category/news/')"> News</button>
+			
+			
+		</div> 
+
+	</div> 
+</div>
+
+<div class ="wrap" >
+ 	<div class= "card" > 
+	<img src="https://pbs.twimg.com/profile_images/1029251124908371968/aF1HVctH.jpg"  style = "margin-top:25px;"    width="150"   height="140">
+ 		<div class ="container"> 
+			<h4><b>Analyticsinsight</b></h4> 
+ 			<button class="btn btn-success"   style = "margin:25px; padding:5px;" onclick=" window.open('https://www.analyticsinsight.net/category/artificial-intelligence/' )"> Open blogs</button>
+			
+			
+		</div> 
+
+	</div> 
+</div>
+
+<div class ="wrap" >
+ 	<div class= "card" > 
+	<img src="https://cdn.analyticsvidhya.com/wp-content/uploads/2020/06/Av-Logo-250x71-1.jpg"  style = "margin-top:25px;"    width="210"   height="110">
+ 		<div class ="container"> 
+			<h4><b>Analytics Vidya Blogs</b></h4> 
+ 			 <div class="dropdown">
+    				<button class="dropbtn">Dropdown 
+     				 <i class="fa fa-caret-down"></i>
+    				</button>
+ 				   <div class="dropdown-content">
+   					   <a href="#">Link 1</a>
+    					  <a href="#">Link 2</a>
+   					   <a href="#">Link 3</a>
+  				  </div>
+				  </div> 
+			
+			
+		</div> 
+
+	</div> 
+</div>
+
+
+</body>
+</html>
